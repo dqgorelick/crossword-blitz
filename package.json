@@ -1,0 +1,29 @@
+{
+  "name": "crossword-blitz",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dqgorelick/crossword-blitz.git"
+  },
+  "author": "dqg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dqgorelick/crossword-blitz/issues"
+  },
+  "homepage": "https://github.com/dqgorelick/crossword-blitz#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.8",
+    "mongoose": "^4.5.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
